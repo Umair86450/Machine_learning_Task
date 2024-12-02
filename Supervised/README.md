@@ -130,7 +130,7 @@ By understanding these algorithms and their applications, you can start building
 Here are some additional topics and files related to your machine learning project:
 
 - [Automatic Library](./Automatic_library/)
-- [Linear Regression](./Linear regression/)
+- [Linear Regression](./Linear%20regression/)
 - [Random Forest (Boosting)](./Random forest (Bosting)/)
 - [Decision Tree](./Decesion Tree/)
 - [Logistic Regression](./Logistic Regression/)
