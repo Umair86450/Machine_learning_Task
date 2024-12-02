@@ -131,15 +131,15 @@ Here are some additional topics and files related to your machine learning proje
 
 - [Automatic Library](./Automatic_library/)
 - [Linear Regression](./Linear%20regression/)
-- [Random Forest (Boosting)](./Random forest (Bosting)/)
-- [Decision Tree](./Decesion Tree/)
-- [Logistic Regression](./Logistic Regression/)
-- [Support Vector Machine](./Support vector machine/)
-- [Ensemble Learning](./Ensemmble learning/)
+- [Random Forest (Boosting)](./Random%20forest%20(Bosting)/)
+- [Decision Tree](./Decesion%20Tree/)
+- [Logistic Regression](./Logistic%20Regression/)
+- [Support Vector Machine](./Support%20vector%20machine/)
+- [Ensemble Learning](./Ensemmble%20learning/)
 - [KNN](./Knn/)
-- [Naive Bayes](./Navie Bayes/)
+- [Naive Bayes](./Navie%20Bayes/)
 - [Data Files](./data/)
-- [Multiple Algorithms](./Multiple Algorithm.ipynb)
+- [Multiple Algorithms](./Multiple%20Algorithm.ipynb)
 
 ---
 
