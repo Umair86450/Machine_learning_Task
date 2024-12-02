@@ -15,18 +15,20 @@ In **Simple Linear Regression**, we deal with two variables:
 
 The relationship is modeled as a straight line:
 \[
-Y = \beta_0 + \beta_1 \times X
+y = mx + c
 \]
 Where:
-- \(\beta_0\) is the intercept (the value of Y when X is 0),
-- \(\beta_1\) is the slope (how much Y changes for a unit change in X).
+- \( y \) is the predicted output (dependent variable),
+- \( x \) is the input data (independent variable),
+- \( m \) is the slope of the line (how much \( y \) changes for a unit change in \( x \)),
+- \( c \) is the intercept (the value of \( y \) when \( x = 0 \)).
 
 #### Example:
 Suppose you want to predict house prices based on the size of the house (in square feet). A simple linear regression model might be:
 \[
-\text{Price} = \beta_0 + \beta_1 \times \text{Size of the house}
+\text{Price} = m \times \text{Size of the house} + c
 \]
-This means that for every square foot increase, the price increases by a certain amount, represented by \(\beta_1\).
+This means that for every square foot increase, the price increases by a certain amount, represented by \( m \), and when the house size is zero, the price would be \( c \).
 
 ---
 
@@ -43,7 +45,7 @@ For example, the relationship between the size of the house and its price may no
 
 **Equation Example**:
 \[
-Y = \beta_0 + \beta_1 \times X + \beta_2 \times X^2
+y = m_0 + m_1 x + m_2 x^2
 \]
 
 ---
@@ -52,7 +54,7 @@ Y = \beta_0 + \beta_1 \times X + \beta_2 \times X^2
 Regularization helps prevent **overfitting** (when the model learns the details of the training data too well, including the noise, and performs poorly on new data).
 
 There are two main types of regularization in linear regression:
-- **Lasso Regression** (L1 regularization): This method adds a penalty term to the linear regression formula that reduces the magnitude of the coefficients (\(\beta_1, \beta_2\), etc.). It can even set some coefficients to zero, effectively excluding some features from the model.
+- **Lasso Regression** (L1 regularization): This method adds a penalty term to the linear regression formula that reduces the magnitude of the coefficients (\(m_1, m_2\), etc.). It can even set some coefficients to zero, effectively excluding some features from the model.
 - **Ridge Regression** (L2 regularization): This method adds a penalty term to shrink the coefficients but not to zero. This is useful when you want to keep all features but control their effect.
 
 Regularization helps in making the model more **generalizable**, which means it will perform better on new, unseen data.
@@ -66,8 +68,8 @@ In cases where you have many features (variables), regularization prevents the m
 
 1. **Collect Data**: Gather data that includes both the input (X) and output (Y) values.
 2. **Plot the Data**: Visualize the data to see if there is a clear linear relationship.
-3. **Fit the Model**: Use the training data to find the best-fit line. The model calculates the best values for \(\beta_0\) and \(\beta_1\).
-4. **Make Predictions**: Once the model is trained, you can use it to predict new values of Y based on given X values.
+3. **Fit the Model**: Use the training data to find the best-fit line. The model calculates the best values for \(m\) and \(c\).
+4. **Make Predictions**: Once the model is trained, you can use it to predict new values of \(y\) based on given \(x\) values.
 
 ---
 
@@ -75,19 +77,19 @@ In cases where you have many features (variables), regularization prevents the m
 
 - **Linear regression** is simple, but powerful, and is widely used for predictions.
 - **Polynomial regression** is an extension of linear regression used for non-linear relationships.
-- **Regularization** helps prevent overfitting and improves the model's generalization.
+- **Regularization** helps prevent overfitting and improves model generalization.
 
 ---
 
 ## Related Files and Topics
 
-### 1. [Polynomial Regression](./Polynomial_regression/)
+### 1. [Polynomial Regression](./Polynomial%20regression/)
 Explore how polynomial regression works and how it can be applied to data with a non-linear trend. It’s a great way to improve your model’s performance when the relationship isn’t purely linear.
 
 ### 2. [Regularization](./Regulization/)
 Learn more about **Lasso** and **Ridge** regression to handle overfitting and improve model generalization.
 
-### 3. [Simple Linear Regression](./Simple_Linear_Regression/)
+### 3. [Simple Linear Regression](./Simple%20Linear%20Regression/)
 Dive deeper into the basics of linear regression, understanding how to fit a line to data and make predictions based on that line.
 
 ---
